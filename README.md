@@ -4,6 +4,11 @@
 
 Scoped events.
 
+Because events are scoped to the emitting object...except when they are not (for instance, on remote events coming through a remote stream, it's useful to have them name-spaced).
+With this you can create a box on top of an event emitter (call it rooms or channels if you will) and emit scoped to that box name.
+You can have multiple nested boxes.
+A box supports the event emitter API plus wildcard events(opt-in).
+
 ## Install
 
 ```bash
