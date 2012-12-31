@@ -1,5 +1,7 @@
 # boxed-emitter
 
+[![Build Status](https://secure.travis-ci.org/pgte/boxed-emitter.png)](http://travis-ci.org/pgte/boxed-emitter)
+
 Scoped events.
 
 ## Install
