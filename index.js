@@ -4,7 +4,7 @@ function box(boxName) {
   var box = new EventEmitter();
   var emitter = this;
   var wildcard = false;
-  boxPrefix = boxName + '::';
+  var boxPrefix = boxName + '::';
   
   box.emit =
   function boxedEmit(eventName) {
