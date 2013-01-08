@@ -35,6 +35,8 @@ function box(boxName) {
     return emitter.removeAllListeners(boxPrefix + eventType);
   };
 
+  box.setMaxListeners = emitter.setMaxListeners.bind(emitter);
+
   box.wildcard =
   function (_wildcard) {
     wildcard = _wildcard;
